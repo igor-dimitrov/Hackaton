@@ -1,16 +1,22 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
+using Hackathon.DAL;
+using Hackathon.ViewModels;
 
-namespace Hackaton.Controllers
+namespace Hackathon.Controllers
 {
     public class HomeController : Controller
     {
+        private readonly DataContext dataContext = new DataContext();
+
         public ActionResult Index()
         {
-            return View();
+            ShipsAndTerritoriesViewModel shipsAndTerritoriesViewModel = new ShipsAndTerritoriesViewModel()
+            {
+                Ships = dataContext.GetShipsAndLocationData(),
+                PirateTerritories = dataContext.GetPirateTerritories()
+            };
+
+            return View(shipsAndTerritoriesViewModel);
         }
 
         public ActionResult About()
