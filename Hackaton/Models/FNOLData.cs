@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
 
@@ -7,6 +8,8 @@ namespace Hackaton.Models
 {
     public class FNOLData
     {
+        [Key]
+        public int Id { get; set; }
         public string DeviceId { get; set; }
         public string PolicyId { get; set; }
         public string OracleId { get; set; }

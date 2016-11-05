@@ -21,7 +21,6 @@ C:\GitHub\Hackaton\Hackaton\bin\System.Web.WebPages.Deployment.xml
 C:\GitHub\Hackaton\Hackaton\bin\System.Web.WebPages.Razor.xml
 C:\GitHub\Hackaton\Hackaton\bin\Antlr3.Runtime.pdb
 C:\GitHub\Hackaton\Hackaton\bin\Newtonsoft.Json.xml
-C:\GitHub\Hackaton\Hackaton\obj\Debug\Hackathon.csprojResolveAssemblyReference.cache
 C:\GitHub\Hackaton\Hackaton\obj\Debug\Hackaton.dll
 C:\GitHub\Hackaton\Hackaton\obj\Debug\Hackaton.pdb
 C:\GitHub\Hackaton\Hackaton\bin\System.Net.Http.Formatting.dll
@@ -30,3 +29,8 @@ C:\GitHub\Hackaton\Hackaton\bin\System.Web.Http.WebHost.dll
 C:\GitHub\Hackaton\Hackaton\bin\System.Net.Http.Formatting.xml
 C:\GitHub\Hackaton\Hackaton\bin\System.Web.Http.xml
 C:\GitHub\Hackaton\Hackaton\bin\System.Web.Http.WebHost.xml
+C:\GitHub\Hackaton\Hackaton\bin\EntityFramework.dll
+C:\GitHub\Hackaton\Hackaton\bin\EntityFramework.SqlServer.dll
+C:\GitHub\Hackaton\Hackaton\bin\EntityFramework.xml
+C:\GitHub\Hackaton\Hackaton\bin\EntityFramework.SqlServer.xml
+C:\GitHub\Hackaton\Hackaton\obj\Debug\Hackathon.csprojResolveAssemblyReference.cache

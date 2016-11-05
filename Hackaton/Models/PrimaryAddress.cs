@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
 
@@ -7,6 +8,8 @@ namespace Hackaton.Models
 {
     public class PrimaryAddress
     {
+        [Key]
+        public int Id { get; set; }
         public object CityTown { get; set; }
         public object Country { get; set; }
         public object FloorOrSuite { get; set; }
