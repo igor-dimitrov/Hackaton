@@ -1,0 +1,74 @@
+﻿@model Hackaton.Models.FNOLData
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>FNOLData</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.DeviceId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DeviceId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PolicyId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PolicyId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.OracleId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.OracleId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TriggerDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TriggerDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TriggerLevel)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TriggerLevel)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TriggerLeverDescription)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TriggerLeverDescription)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TriggerType)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TriggerType)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

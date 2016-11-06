@@ -19,11 +19,9 @@ namespace Hackathon.Controllers
             return View(shipsAndTerritoriesViewModel);
         }
 
-        public ActionResult About()
+        public ActionResult Sensors()
         {
-            ViewBag.Message = "Your application description page.";
-
-            return View();
+           return View();
         }
 
         public ActionResult Contact()

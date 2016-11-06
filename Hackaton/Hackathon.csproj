@@ -134,11 +134,13 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\Api\FNOLDataController.cs" />
     <Compile Include="Controllers\Api\LocationDataController.cs" />
+    <Compile Include="Controllers\FNOLDataController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="DAL\DataContext.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Data.cs" />
     <Compile Include="Models\FNOLData.cs" />
     <Compile Include="Models\HackatonContext.cs" />
@@ -189,6 +191,12 @@
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
+    <Content Include="Views\FNOLData\Create.cshtml" />
+    <Content Include="Views\FNOLData\Delete.cshtml" />
+    <Content Include="Views\FNOLData\Details.cshtml" />
+    <Content Include="Views\FNOLData\Edit.cshtml" />
+    <Content Include="Views\FNOLData\Index.cshtml" />
+    <Content Include="Views\Home\Sensors.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

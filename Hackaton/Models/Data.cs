@@ -11,6 +11,6 @@ namespace Hackaton.Models
         [Key]
         public int Id { get; set; }
         public string Type { get; set; }
-        public object Value { get; set; }
+        public string Value { get; set; }
     }
 }
